@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Taniti Island</title>
+      <link rel="stylesheet" href="styles.css">
+      <script src="script.js"></script>
+   </head>
+   <body>
+      <header>
+         <div class="logo-container">
+            <div class="nav-container">
+               <nav>
+                  <ul>
+                     <li class="active"><a href="./index.html" class="active">Home</a></li>
+                     <li class="submenu-parent">
+                        <a href="#">Navigate</a>
+                        <ul class="submenu">
+                           <li>
+                              <a href="./accommodations.html">Accommodations</a>
+                           </li>
+                           <li>
+                              <a href="./attractions.html">Attractions</a>
+                           </li>
+                           <li>
+                              <a href="./dining.html">Dining</a>
+                           </li>
+                           <li>
+                              <a href="./transportation.html">Transportation</a>
+                           </li>
+                           <li>
+                              <a href="./plan-your-trip.html">Plan Your Trip</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li><a href="./about-taniti.html">About Taniti</a></li>
+                     <li><a href="./contact-us.html">Contact Us</a></li>
+                  </ul>
+               </nav>
+               <nav class="search-bar">
+                  <input type="text" id="search-input" placeholder="Search...">
+                  <button type="submit" onclick="search()">Search</button>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <main id="main-content" style="padding-top: 20px;">
+         <div class="intro">
+            <h1>Welcome To Taniti Island</h1>
+         </div>
+         <img src="./Index/TanitiIntro.jpg" alt="Taniti Intro" class="images-format" id="index-image1">
+         <p>Welcome to Taniti Island, a breathtaking paradise nestled in the heart of the South Pacific, where pristine beaches, lush rainforests, and the majestic presence of an active volcano await. Explore the powdery white sands of our diverse coastlines, venture through the vibrant, life-filled rainforest, and ascend the awe-inspiring summit of our island's volcano for panoramic views that captivate the soul. Immerse yourself in Taniti's rich cultural heritage, experience its commitment to sustainable eco-tourism, and indulge in a plethora of outdoor activities tailored for every adventurer. Taniti Island offers an escape to a world where nature's beauty and a warm, welcoming culture blend seamlessly to create a truly unforgettable experience.</p>
+         <p><br></p>
+         <a href="./about-taniti.html"><img src="./Index/AboutTaniti.jpg" alt="About Taniti" class="images-format" id="index-image2"></a>
+         <p>Nestled in the crystalline waters of the South Pacific, Taniti Island is a diverse paradise, boasting expansive white sand beaches and lush, verdant rainforests. The island's geography is dramatically marked by its majestic, active volcano, which offers adventurous visitors the chance to witness nature's power up close. Rich in culture, Taniti's history stretches back thousands of years with traditions deeply rooted in music, dance, and art. Visitors can explore historical sites that tell the tales of ancient civilizations, engage with local artisans, and experience the vibrant festivals that celebrate the island's unique heritage. Popular attractions include snorkeling in the vibrant coral reefs, hiking through dense rainforests to hidden waterfalls, and relaxing in natural hot springs that offer panoramic views of the island's stunning landscape.
+         <div class="button-container"><a href="./about-taniti.html" class="cta-button">Learn More About Taniti</a></div>
+         </p>
+         <p><br></p>
+         <a href="./accommodations.html"><img src="./Index/Accommodations.jpg" alt="Accommodations" class="images-format" id="index-image1"></a>
+         <p>Discover the perfect place to stay on Taniti Island, where a diverse array of lodging options awaits you. From luxurious resorts nestled on the shores of crystal-clear waters to charming bed and breakfasts in the heart of the rainforest, our accommodations cater to every preference and budget. Each listing provides detailed descriptions, amenities, photos, and pricing to help you make an informed choice. Plus, with our easy-to-use booking functionality, complete with availability calendars and reservation forms, planning your stay on Taniti Island is effortless and convenient. Explore our accommodations today and find your ideal island getaway!
+         <div class="button-container">
+         <a href="./accommodations.html" class="cta-button">View Lodging Options</a></p>
+         <p><br></p>
+         <p><a href="./attractions.html"><img src="./Index/Attractions.jpg" alt="Attractions" class="images-format" id="index-image2"></a>
+            Embark on an unforgettable adventure with our comprehensive guide to Taniti Island's attractions and activities. From serene beach outings and exhilarating rainforest hikes to awe-inspiring volcano tours and vibrant cultural experiences, our island has something for everyone. Explore detailed descriptions, photos, and essential visitor information for each attraction. Whether you're planning a leisurely day out or an action-packed itinerary, our recommended tours and exclusive packages are designed to ensure you experience the very best of Taniti. Dive into the beauty and excitement of our island's most beloved spots today!
+         <div class="button-container"><a href="./attractions.html" class="cta-button">Discover Attractions</a></div>
+         </p>
+         <p><br></p>
+         <a href="./dining.html"><img src="./Index/Dining.jpg" alt="Dining" class="images-format" id="index-image1"></a>
+         <p>Indulge in a culinary adventure on Taniti Island, where a plethora of dining options awaits. From authentic local cuisine to exquisite international dishes, each restaurant offers a unique taste of our rich culture. Browse through detailed menus, read customer reviews, and access contact information to make reservations. Whether you’re looking for a casual café or an upscale dining experience, our guide provides all you need to savor the flavors of Taniti.
+         <div class="button-container"><a href="./dining.html" class="cta-button">Explore Dining Options</a></div>
+         </p>
+         <p><br></p>
+         <a href="./transportation.html"><img src="./Index/Transportation.jpg" alt="Transportation" class="images-format" id="index-image2"></a>
+         <p>Traveling to and around Taniti Island is seamless and convenient. Learn about our comprehensive transportation options, including flights, cruise ships, and various ground transportation methods like rental cars and public transit. Get tips for navigating the island efficiently, whether you prefer to drive, walk, or bike, and find links to reliable transportation providers and booking platforms.
+         <div class="button-container"><a href="./transportation.html" class="cta-button">Transportation Details</a></div>
+         </p>
+         <p><br></p>
+         <a href="./plan-your-trip.html"><img src="./Index/PlanYourTrip.jpg" alt="Plan Your Trip" class="images-format" id="index-image1"></a>
+         <p>Plan your perfect trip to Taniti Island with our practical travel advice. From packing tips to information about the local weather, currency, language, and cultural norms, our guide ensures you’re well-prepared. Our FAQ section addresses common concerns and questions travelers might have, helping you anticipate and plan every detail of your visit.
+         <div class="button-container"><a href="./plan-your-trip.html" class="cta-button">Plan Your Trip</a></div>
+         </p>
+         <p><br></p>
+         <a href="./contact-us.html"><img src="./Index/ContactUs.jpg" alt="Contact Us" class="images-format" id="index-image2"></a>
+         <p>Have questions or need further information? Contact the Taniti tourism board or visitor center through our inquiry form. Follow us on social media to stay updated on the latest news and share your experiences with others. We’re here to assist and ensure your visit is nothing short of extraordinary.
+         <div class="button-container"><a href="./contact-us.html" class="cta-button">Contact Us</a></div>
+         </p>
+         <p><br></p>
+         <p><br></p>
+      </main>
+      <footer>
+         <div class="footer-container">
+            <div class="footer-section" id="footer-location">
+               <strong>Location</strong>
+               <p class="street-address">1 Street Rd</p>
+               <p class="city-state">City, State 00000</p>
+            </div>
+            <div class="footer-section" id="footer-social-media">
+               <a href="#" class="social-icon">
+               <img src="./Index/FB.png" alt="Facebook">
+               </a>
+               <a href="#" class="social-icon">
+               <img src="./Index/TW.png" alt="Twitter">
+               </a>
+               <a href="#" class="social-icon">
+               <img src="./Index/IG.png" alt="Instagram">
+               </a>
+            </div>
+            <div class="footer-section" id="footer-quick-links">
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about-taniti.html">About Taniti</a></li>
+                  <li><a href="accommodations.html">Accommodations</a></li>
+                  <li><a href="attractions.html">Attractions</a></li>
+                  <li><a href="dining.html">Dining</a></li>
+                  <li><a href="transportation.html">Transportation</a></li>
+                  <li><a href="plan-your-trip.html">Plan Your Trip</a></li>
+                  <li><a href="contact-us.html">Contact Us</a></li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>

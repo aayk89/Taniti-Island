@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Taniti Island</title>
+      <link rel="stylesheet" href="styles.css">
+      <script src="script.js"></script>
+   </head>
+   <body>
+      <header>
+         <div class="logo-container">
+            <div class="nav-container">
+               <nav>
+                  <ul>
+                     <li><a href="./index.html">Home</a></li>
+                     <li class="submenu-parent">
+                        <a href="#">Navigate</a>
+                        <ul class="submenu">
+                           <li>
+                              <a href="./accommodations.html">Accommodations</a>
+                           </li>
+                           <li>
+                              <a href="./attractions.html">Attractions</a>
+                           </li>
+                           <li>
+                              <a href="./dining.html">Dining</a>
+                           </li>
+                           <li>
+                              <a href="./transportation.html">Transportation</a>
+                           </li>
+                           <li>
+                              <a href="./plan-your-trip.html">Plan Your Trip</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li><a href="./about-taniti.html">About Taniti</a></li>
+                     <li class="active"><a href="./contact-us.html" class="active">Contact Us</a></li>
+                  </ul>
+               </nav>
+               <nav class="search-bar">
+                  <input type="text" id="search-input" placeholder="Search...">
+                  <button type="submit" onclick="search()">Search</button>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <main>
+         <section class="contact-intro">
+            <h1>Contact Taniti Tourism Board</h1>
+            <p>Get in touch with us for any questions or feedback you might have.</p>
+         </section>
+         <section class="contact-information">
+            <h2>Visitor Center</h2>
+            <p>123 Paradise Road, Taniti Island, TI 12345</p>
+            <p>Email: info@tanititourism.ti</p>
+            <p>Phone: +123 4567 8900</p>
+         </section>
+         <section class="contact-form">
+            <h2>Inquiries</h2>
+            <form action="#" method="post">
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="name" required>
+               <label for="email">Email:</label>
+               <input type="email" id="email" name="email" required>
+               <label for="message">Message:</label>
+               <textarea id="message" name="message" required></textarea>
+               <button type="submit">Send Inquiry</button>
+            </form>
+         </section>
+         <section class="social-media">
+            <h2>Connect With Us</h2>
+            <p>Follow us on social media and share your Taniti experiences.</p>
+            <div class="social-links">
+               <a href="#" class="social-icon">
+               <img src="./Index/FB.png" alt="Facebook">
+               </a>
+               <a href="#" class="social-icon">
+               <img src="./Index/TW.png" alt="Twitter">
+               </a>
+               <a href="#" class="social-icon">
+               <img src="./Index/IG.png" alt="Instagram">
+               </a>
+            </div>
+         </section>
+         <p><br></p>
+         <p><br></p>
+      </main>
+      <footer>
+         <div class="footer-container">
+            <div class="footer-section" id="footer-location">
+               <strong>Location</strong>
+               <p class="street-address">1 Street Rd</p>
+               <p class="city-state">City, State 00000</p>
+            </div>
+            <div class="footer-section" id="footer-social-media">
+               <a href="#" class="social-icon">
+               <img src="./Index/FB.png" alt="Facebook">
+               </a>
+               <a href="#" class="social-icon">
+               <img src="./Index/TW.png" alt="Twitter">
+               </a>
+               <a href="#" class="social-icon">
+               <img src="./Index/IG.png" alt="Instagram">
+               </a>
+            </div>
+            <div class="footer-section" id="footer-quick-links">
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about-taniti.html">About Taniti</a></li>
+                  <li><a href="accommodations.html">Accommodations</a></li>
+                  <li><a href="attractions.html">Attractions</a></li>
+                  <li><a href="dining.html">Dining</a></li>
+                  <li><a href="transportation.html">Transportation</a></li>
+                  <li><a href="plan-your-trip.html">Plan Your Trip</a></li>
+                  <li><a href="contact-us.html">Contact Us</a></li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>

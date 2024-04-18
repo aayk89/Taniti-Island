@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dining at Taniti Island</title>
+      <link rel="stylesheet" href="styles.css">
+      <script src="script.js"></script>
+   </head>
+   <body>
+      <header>
+         <div class="logo-container">
+            <div class="nav-container">
+               <nav>
+                  <ul>
+                     <li ><a href="./index.html" >Home</a></li>
+                     <li class="submenu-parent">
+                        <a href="#" class="active">Navigate</a>
+                        <ul class="submenu" class="active">
+                           <li>
+                              <a href="./accommodations.html">Accommodations</a>
+                           </li>
+                           <li>
+                              <a href="./attractions.html">Attractions</a>
+                           </li>
+                           <li>
+                              <a href="./dining.html" class="active">Dining</a>
+                           </li>
+                           <li>
+                              <a href="./transportation.html">Transportation</a>
+                           </li>
+                           <li>
+                              <a href="./plan-your-trip.html">Plan Your Trip</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li><a href="./about-taniti.html">About Taniti</a></li>
+                     <li><a href="./contact-us.html">Contact Us</a></li>
+                  </ul>
+               </nav>
+               <nav class="search-bar">
+                  <input type="text" id="search-input" placeholder="Search...">
+                  <button type="submit" onclick="search()">Search</button>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <main>
+         <div class="intro">
+            <h1>Exquisite Dining at Taniti</h1>
+            <p>Discover the flavors of Taniti with a variety of dining options for every taste.</p>
+         </div>
+         <section class="menu-tabs">
+            <button class="tab-link active" onclick="openTab(event, 'Local')">Local Cuisine</button>
+            <button class="tab-link" onclick="openTab(event, 'International')">International</button>
+            <button class="tab-link" onclick="openTab(event, 'Cafes')">Cafes</button>
+            <button class="tab-link" onclick="openTab(event, 'Bars')">Bars</button>
+         </section>
+         <div id="Local" class="tab-content" style="display: block;">
+            <h3>Traditional Tanitian Treats</h3>
+            <p>Enjoy the rich flavors of Taniti with dishes like Grilled Seafood Platters and Coconut-infused Vegetables. Each meal is prepared using fresh, local ingredients that capture the spirit of the island.<br><img src="./Dining/Local.jpg" alt="Traditional Tanitian Treats"></p>
+         </div>
+         <div id="International" class="tab-content" style="display:none;">
+            <h3>World Flavors</h3>
+            <p>Sample a variety of international cuisines from our globally-inspired restaurants. From Italian pasta to Japanese sushi, experience gourmet dining with a multicultural twist.<br><img src="./Dining/International.jpg" alt="World Flavors"></p>
+         </div>
+         <div id="Cafes" class="tab-content" style="display:none;">
+            <h3>Coffee and Casual Eats</h3>
+            <p>Relax in one of our cozy cafes, offering a selection of artisan coffees, homemade pastries, and light meals - perfect for a lazy afternoon or a quick bite.<br><img src="./Dining/Cafes.jpg" alt="Coffee and Casual Eats"></p>
+         </div>
+         <div id="Bars" class="tab-content" style="display:none;">
+            <h3>Nightlife and Cocktails</h3>
+            <p>Explore Taniti's vibrant nightlife at our bars and lounges. Enjoy live music, exotic cocktails, and the perfect ambiance for a night out.<br><img src="./Dining/Bars.jpg" alt="Nightlife and Cocktails"></p>
+         </div>
+         <div class="restaurant-locator">
+            <p><br></p>
+            <p><br></p>
+            <h2>Find a Restaurant</h2>
+            <img src="./Dining/GoogleMaps.png" alt="Google Maps" style="max-width:100%; height:auto;">
+         </div>
+         <p><br></p>
+         <p><br></p>
+      </main>
+      <footer>
+         <div class="footer-container">
+            <div class="footer-section" id="footer-location">
+               <strong>Location</strong>
+               <p class="street-address">1 Street Rd</p>
+               <p class="city-state">City, State 00000</p>
+            </div>
+            <div class="footer-section" id="footer-social-media">
+               <a href="#" class="social-icon">
+               <img src="./Index/FB.png" alt="Facebook">
+               </a>
+               <a href="#" class="social-icon">
+               <img src="./Index/TW.png" alt="Twitter">
+               </a>
+               <a href="#" class="social-icon">
+               <img src="./Index/IG.png" alt="Instagram">
+               </a>
+            </div>
+            <div class="footer-section" id="footer-quick-links">
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about-taniti.html">About Taniti</a></li>
+                  <li><a href="accommodations.html">Accommodations</a></li>
+                  <li><a href="attractions.html">Attractions</a></li>
+                  <li><a href="dining.html">Dining</a></li>
+                  <li><a href="transportation.html">Transportation</a></li>
+                  <li><a href="plan-your-trip.html">Plan Your Trip</a></li>
+                  <li><a href="contact-us.html">Contact Us</a></li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
